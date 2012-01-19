@@ -33,9 +33,6 @@
                     android:scheme="sample" />
             </intent-filter>
             <!-- ここまで -->
-            <data
-                android:host="callback"
-                android:scheme="sample" />
         </activity>
     </application>
 

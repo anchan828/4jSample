@@ -23,7 +23,6 @@ public class Twitter4jSampleActivity extends Activity {
 	private RequestToken oAuthRequestToken;
 	private Button oauthButton;
 	private TextView screenName;
-
 	private ListView timeLine;
 
 	@Override
@@ -81,8 +80,8 @@ public class Twitter4jSampleActivity extends Activity {
 		super.onNewIntent(intent);
 		if (twitter != null) {
 			try {
-				// 返ってきたインテントのデータからアクセストークンを取得する
-				// 「oauth_verifier」ってのは本当にリクエストしてきたっていう証明で、
+				//返ってきたインテントのデータからアクセストークンを取得する
+				//「oauth_verifier」ってのは本当にリクエストしてきたっていう証明で、
 				//これをさらに使用してアクセストークンを取得するっていう仕組み
 				twitter.getOAuthAccessToken(oAuthRequestToken, intent.getData()
 						.getQueryParameter("oauth_verifier"));
