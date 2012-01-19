@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Twitter4jSampleActivity!</string>
+    <string name="app_name">Twitter4jSample</string>
+    <string name="oauthbutton">Twitter認証ボタン</string>
+
+</resources>
